@@ -9,6 +9,7 @@ pipeline {
                 sh """ cd config-service \
                     mvn package \
                     cd .. \
+                    
                     """
                
 
