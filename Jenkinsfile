@@ -6,10 +6,10 @@ pipeline {
         stage('Build') {
             steps {
                 
-                sh """mvn --version \
-                    cd config-service \
+                sh """ cd config-service \
                     mvn package \
-                    cd .."""
+                    cd ..
+                    """
                
 
           
