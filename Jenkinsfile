@@ -7,7 +7,9 @@ pipeline {
             steps {
                 
                 sh '''cd config-service \
+                
                       mvn package \
+                      
                       cd ..'''
                
 
